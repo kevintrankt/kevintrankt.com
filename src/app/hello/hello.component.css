@@ -12,6 +12,16 @@ h2{
     text-align: left;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #3375AE;
+}
+
 .greeting{
     font-family: 'Cera GR Regular', Fallback, sans-serif !important;
     max-width: 600px;
@@ -29,7 +39,7 @@ h2{
 }
 
 #intro{
-    padding: 15vh 8% 0 8%;
+    padding: 15vh 8vw 0 8vw;
 }
 
 #credit{
