@@ -1,0 +1,44 @@
+h1 {
+    font-family: 'Cera GR Medium', Fallback, sans-serif !important;
+    color: #5B5B5B;
+    font-size: 2rem;
+}
+
+h2{
+    font-family: 'Cera GR Regular', Fallback, sans-serif !important;
+    font-size:1rem;
+    color: #F38181;
+    word-spacing: 2vw;
+    text-align: left;
+}
+
+.greeting{
+    font-family: 'Cera GR Regular', Fallback, sans-serif !important;
+    max-width: 600px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.hello-container{
+    height:100%;
+    width:100%;
+}
+
+#name{
+    font-family: 'Cera GR Bold', Fallback, sans-serif !important;
+}
+
+#intro{
+    padding: 15vh 8% 0 8%;
+}
+
+#credit{
+    font-family: 'Cera GR Light', Fallback, sans-serif !important;
+    position:absolute;
+    bottom: 0px;
+    right: 32px;
+    font-size: .8rem;
+    color: #797979;
+    text-align: right;
+}
+
