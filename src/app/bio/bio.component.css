@@ -1,13 +1,12 @@
-h4{
+/* h4{
     font-family: 'Cera GR Medium', Fallback, sans-serif !important;
     font-size: .75rem;
     color: #F38181;
     letter-spacing: .2rem;
     text-align: right;
-  height:auto;
-    /* width: 19%; */
+    height:auto;
     float:left;
-  border:none;
+    border:none;
 }
 
 p{
@@ -22,6 +21,7 @@ p{
     max-width: 50vw;
 }
 
+
 .bio-title{
     flex-shrink: 0;
     width: 200px;
@@ -35,20 +35,14 @@ p{
     letter-spacing: 2px;
 }
 
-.bio-content{
-    font-weight: 300;
-    font-size: 1rem;
-    width: 100%;
-    max-width: 650px;
-}
+
 
 .bio{
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding: 100px 50px 100px 300px;
-    /* height: 100vh; */
+    padding: 50px 15vw 0px 25vw;
 }
 .bold{
     font-family: 'Cera GR Medium', Fallback, sans-serif !important;
@@ -57,7 +51,7 @@ p{
 
 @media screen and (max-width: 1280px){
     .bio {
-        padding: 100px;
+        padding-right: 100px;
     }
 }
 
@@ -89,4 +83,110 @@ p{
     .bio {
         padding:50px 35px;;
     }
+} */
+
+.bio{
+    margin-left:20vw;
+    margin-right:10vw;
+}
+
+
+.bio-title{
+    float: left;
+    margin-right:50px;
+    width:200px;
+    text-align: right;
+    font-family: 'Cera GR Medium', Fallback, sans-serif !important;
+    font-size: .75rem;
+    color: #F38181;
+    letter-spacing: .2rem;
+    line-height:.6;
+
+}
+
+.bio-content{
+    /* max-width: 600px; */
+    float: left;
+    width: calc(100% - 200px);
+    font-family: 'Cera GR Light', Fallback, sans-serif !important;
+    font-size: 1rem;
+    color: #353535;
+    text-align: left;
+    line-height:1.5;
+    width:100%;
+    max-width: 50vw;
+}
+
+p{
+}
+
+.lists{
+    width:100%;
+
+}
+
+.lists1{
+    display:inline-block;
+    width: 25%;
+    background-color: red;
+    height:50px;
+}
+
+.lists2{
+    display:inline-block;
+    width: 25%;
+    background-color: blue;
+    height:50px;
+
+}
+.lists3{
+    display:inline-block;
+    width: 25%;
+    background-color: red;
+    height:50px;
+
+}
+.lists4{
+    display:inline-block;
+    width: 25%;
+    background-color:pink;
+    height:50px;
+
+}
+
+.bold{
+    font-family: 'Cera GR Medium', Fallback, sans-serif !important;
+}
+
+
+@media screen and (max-width: 1280px){
+    .bio {
+        margin-left:10vw;
+        margin-right:5vw;
+        }
+}
+
+@media screen and (max-width: 1024px){
+    .bio {
+
+        margin-left:1vw;
+        margin-right:1vw;
+        width:100%;
+        }
+    .bio-content{
+        width:100%;
+        max-width:none;
+    }
+
+    .bio-title{
+        float: none;
+        width:100%;
+        text-align: left;
+        padding-bottom: 3vh;
+    }
+}
+
+@media screen and (max-width: 768){
+
+
 }

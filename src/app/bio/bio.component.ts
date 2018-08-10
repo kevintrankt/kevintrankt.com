@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BioComponent implements OnInit {
 
+  languages = ["Javascript", "HTML5", "CSS"]
+
   constructor() { }
 
   ngOnInit() {
