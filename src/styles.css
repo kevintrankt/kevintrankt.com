@@ -1,27 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
-    font-family: 'Cera GR Bold';
-    src: url('assets/CeraGRBold.otf') format('opentype');
-  }
+  font-family: 'Cera GR Bold';
+  src: url('assets/CeraGRBold.otf') format('opentype');
+}
 
 @font-face {
-    font-family: 'Cera GR Medium';
-    src: url('assets/CeraGRMedium.otf') format('opentype');
-  }
+  font-family: 'Cera GR Medium';
+  src: url('assets/CeraGRMedium.otf') format('opentype');
+}
 
-  @font-face {
-    font-family: 'Cera GR Regular';
-    src: url('assets/CeraGR.otf') format('opentype');
-  }
+@font-face {
+  font-family: 'Cera GR Regular';
+  src: url('assets/CeraGR.otf') format('opentype');
+}
 
-  @font-face {
-    font-family: 'Cera GR Light';
-    src: url('assets/CeraGRLight.otf') format('opentype');
-  }
+@font-face {
+  font-family: 'Cera GR Light';
+  src: url('assets/CeraGRLight.otf') format('opentype');
+}
 
-  ::selection {
-    background: #ffb7b7; /* WebKit/Blink Browsers */
-  }
-  ::-moz-selection {
-    background: #ffb7b7; /* Gecko Browsers */
-  }
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+
+body {
+  margin: 0;
+}
