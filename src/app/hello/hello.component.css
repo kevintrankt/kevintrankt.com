@@ -34,6 +34,9 @@ a:hover {
   height: 100%;
   width: 100%;
 }
+.links {
+  z-index: 2;
+}
 
 #name {
   font-family: 'Cera GR Bold', Fallback, sans-serif !important;
