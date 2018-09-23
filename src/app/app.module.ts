@@ -5,18 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
 import { BioComponent } from './bio/bio.component';
+import { ParticlesModule } from 'angular-particle';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HelloComponent,
-    BioComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, HelloComponent, BioComponent],
+  imports: [BrowserModule, AppRoutingModule, ParticlesModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
