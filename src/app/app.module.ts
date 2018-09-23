@@ -8,10 +8,19 @@ import { BioComponent } from './bio/bio.component';
 import { ParticlesModule } from 'angular-particle';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [AppComponent, HelloComponent, BioComponent],
-  imports: [BrowserModule, AppRoutingModule, ParticlesModule, ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })],
+  imports: [
+    AngularFontAwesomeModule,
+    BrowserModule,
+    AppRoutingModule,
+    ParticlesModule,
+    ServiceWorkerModule.register('/ngsw-worker.js', {
+      enabled: environment.production
+    })
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
