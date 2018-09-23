@@ -15,27 +15,22 @@ export class HelloComponent implements OnInit {
 
   ngOnInit() {
     this.myStyle = {
-      position: 'fixed',
+      position: 'absolute',
       width: '100%',
-      height: '100%',
-      'z-index': 5,
-      top: 0,
-      left: 0,
-      right: 0,
-      bottom: 0
+      height: '100%'
     };
 
     this.myParams = {
       particles: {
         number: {
-          value: 40,
+          value: 75,
           density: {
             enable: true,
             value_area: 800
           }
         },
         color: {
-          value: '#808080'
+          value: ['#f38181', '#fce38a', '#eaffd0', '#95e1d3']
         },
         shape: {
           type: 'circle',
@@ -45,25 +40,20 @@ export class HelloComponent implements OnInit {
           },
           polygon: {
             nb_sides: 5
-          },
-          image: {
-            src: 'img/github.svg',
-            width: 100,
-            height: 100
           }
         },
         opacity: {
-          value: 0.5,
+          value: 0.4,
           random: false,
           anim: {
             enable: false,
-            speed: 1,
-            opacity_min: 0.1,
+            speed: 10,
+            opacity_min: 1,
             sync: false
           }
         },
         size: {
-          value: 2,
+          value: 5,
           random: true,
           anim: {
             enable: false,
@@ -74,14 +64,15 @@ export class HelloComponent implements OnInit {
         },
         line_linked: {
           enable: true,
-          distance: 300,
-          color: '#808080',
+          // distance: 300,
+          distance: 100,
+          color: '#000000',
           opacity: 0.4,
-          width: 2
+          width: 1
         },
         move: {
           enable: true,
-          speed: 12,
+          speed: 2,
           direction: 'none',
           random: false,
           straight: false,
@@ -102,7 +93,7 @@ export class HelloComponent implements OnInit {
             mode: 'repulse'
           },
           onclick: {
-            enable: true,
+            enable: false,
             mode: 'push'
           },
           resize: true
