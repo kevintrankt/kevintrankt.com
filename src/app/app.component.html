@@ -3,8 +3,8 @@
 
   <nav class="nav-link">
     <h2 class="links">
-      <a *ngIf="!projects" (click)="toggleProjects()"> projects</a>
-      <a *ngIf="projects" (click)="toggleProjects()"> home</a>
+      <a *ngIf="!projects" (click)="toggleProjects()" class="animated fadeIn"> projects</a>
+      <a *ngIf="projects" (click)="toggleProjects()" class="animated fadeIn"> home</a>
 
     </h2>
   </nav>
