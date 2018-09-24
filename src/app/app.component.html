@@ -1,6 +1,14 @@
-<particles class="particle" [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
-
 <div class="page">
-  <app-hello></app-hello>
-  <!-- <app-bio></app-bio> -->
+  <nav>
+    <h2 class="links">
+      <a *ngIf="!projects" (click)="toggleProjects()"> projects</a>
+      <a *ngIf="projects" (click)="toggleProjects()"> home</a>
+
+    </h2>
+  </nav>
+  <app-hello *ngIf="!projects"></app-hello>
+  <app-projects *ngIf="projects"></app-projects>
+
+
+
 </div>

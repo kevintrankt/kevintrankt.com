@@ -1,23 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-projects',
+  templateUrl: './projects.component.html',
+  styleUrls: ['./projects.component.css']
 })
-export class AppComponent {
-  title = 'app';
+export class ProjectsComponent implements OnInit {
   myStyle: object = {};
   myParams: object = {};
   width: number = 100;
   height: number = 100;
-  projects = false;
 
-  toggleProjects() {
-    this.projects = !this.projects;
-  }
+  constructor() {}
+
   ngOnInit() {
-    console.log('hello :^) - kevin');
     this.myStyle = {
       position: 'absolute',
       width: '100%',

@@ -9,9 +9,10 @@ import { ParticlesModule } from 'angular-particle';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
-  declarations: [AppComponent, HelloComponent, BioComponent],
+  declarations: [AppComponent, HelloComponent, BioComponent, ProjectsComponent],
   imports: [
     AngularFontAwesomeModule,
     BrowserModule,
