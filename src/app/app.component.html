@@ -1,4 +1,6 @@
 <div class="page">
+  <particles class="particle" [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
+
   <nav>
     <h2 class="links">
       <a *ngIf="!projects" (click)="toggleProjects()"> projects</a>
@@ -10,5 +12,6 @@
   <app-projects *ngIf="projects"></app-projects>
 
 
-
+  <h3 id="credit">(under construction)
+    <br>designed & developed by kevin tran 2018</h3>
 </div>

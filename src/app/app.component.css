@@ -30,3 +30,14 @@ a:hover {
   display: block;
   clear: both;
 }
+
+#credit {
+  font-family: 'Cera GR Light', Fallback, sans-serif !important;
+  position: absolute;
+  bottom: 0px;
+  right: 32px;
+  font-size: 0.8rem;
+  color: #797979;
+  text-align: right;
+  margin: 0;
+}
