@@ -37,7 +37,7 @@ a:hover {
   position: absolute;
   width: 100%;
   overflow: scroll;
-  height: 100vh;
+  height: 102vh;
 }
 .links {
   z-index: 2;

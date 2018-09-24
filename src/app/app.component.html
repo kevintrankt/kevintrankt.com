@@ -1,7 +1,7 @@
 <div class="page">
   <particles class="particle" [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
 
-  <nav>
+  <nav class="nav-link">
     <h2 class="links">
       <a *ngIf="!projects" (click)="toggleProjects()"> projects</a>
       <a *ngIf="projects" (click)="toggleProjects()"> home</a>
