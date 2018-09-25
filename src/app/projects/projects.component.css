@@ -19,6 +19,7 @@ a {
 }
 p {
   margin: 0 0 11px 0;
+  text-transform: lowercase;
 }
 
 a:hover {
@@ -99,6 +100,7 @@ a:hover {
     monospace;
   font-size: 0.75rem;
   color: #71c9ce;
+  display: inline-block;
 }
 
 .skill {
@@ -106,6 +108,7 @@ a:hover {
     monospace;
   font-size: 0.75rem;
   color: #aa96da;
+  display: inline-block;
 }
 
 .software {
@@ -113,6 +116,7 @@ a:hover {
     monospace;
   font-size: 0.75rem;
   color: #fc5185;
+  display: inline-block;
 }
 
 @media only screen and (max-width: 850px) {
