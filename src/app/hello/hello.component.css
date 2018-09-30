@@ -63,3 +63,9 @@ a:hover {
   text-align: right;
   margin: 0;
 }
+
+@media only screen and (max-width: 850px) {
+  #credit {
+    display: none;
+  }
+}
