@@ -64,7 +64,7 @@ a:hover {
   margin: 0;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 500px) {
   #credit {
     display: none;
   }
