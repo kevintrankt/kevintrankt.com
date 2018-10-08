@@ -37,7 +37,7 @@ a:hover {
 .hello-container {
   position: absolute;
   width: 100%;
-  overflow: scroll;
+  /* overflow: scroll; */
   height: 102vh;
 }
 .links {
@@ -55,7 +55,8 @@ a:hover {
 }
 
 #intro {
-  padding: 15vh 8vw 0 8vw;
+  height: 85%;
+  padding: 15vh 0 0 8vw;
 }
 
 #credit {
@@ -71,6 +72,9 @@ a:hover {
 
 .projects {
   display: inline-block;
+  height: 80%;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .project {
@@ -78,7 +82,8 @@ a:hover {
   display: grid;
   grid-template-columns: 50% auto;
   grid-column-gap: 5vw;
-  max-width: 1200px;
+  padding-right: 10vw;
+  /* max-width: 1200px; */
 }
 
 .project-img {
