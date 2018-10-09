@@ -56,7 +56,8 @@ a:hover {
 
 #intro {
   height: 85%;
-  padding: 15vh 0 0 8vw;
+  margin: 15vh 0 0 8vw;
+  overflow-y: scroll;
 }
 
 #credit {
@@ -72,8 +73,8 @@ a:hover {
 
 .projects {
   display: inline-block;
-  height: 80%;
-  overflow: scroll;
+  /* height: 80%; */
+  /* overflow: scroll; */
   overflow-x: hidden;
 }
 
