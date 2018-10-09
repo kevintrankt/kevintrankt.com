@@ -1,5 +1,12 @@
 <div class="page">
-  <particles class="particle" [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
+  <particles *ngIf="showParticle" class="particle" [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
+  <div class="particle-switch">
+    <label class="switch">
+      <input type="checkbox" checked (change)="toggleParticle()">
+      <span class="slider round"></span>
+    </label>
+  </div>
+
 
   <nav class="nav-link">
     <h2 class="links">

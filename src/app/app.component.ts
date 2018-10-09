@@ -12,6 +12,11 @@ export class AppComponent {
   width: number = 100;
   height: number = 100;
   projects = false;
+  showParticle = true;
+
+  toggleParticle() {
+    this.showParticle = !this.showParticle;
+  }
 
   toggleProjects() {
     this.projects = !this.projects;

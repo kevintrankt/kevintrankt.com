@@ -56,8 +56,9 @@ a:hover {
 
 #intro {
   height: 85%;
-  margin: 15vh 0 0 8vw;
+  margin: 10vh 0 0 8vw;
   overflow-y: scroll;
+  padding-top: 5vh;
 }
 
 #credit {
