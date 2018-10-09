@@ -1,12 +1,12 @@
 h1 {
-  font-family: 'Cera GR Medium', Fallback, sans-serif !important;
+  font-family: 'Cera GR Medium', sans-serif !important;
   color: #5b5b5b;
   font-size: 2rem;
   margin: 21px 0 15px 0;
 }
 
 h2 {
-  font-family: 'Cera GR Regular', Fallback, sans-serif !important;
+  font-family: 'Cera GR Regular', sans-serif !important;
   font-size: 1rem;
   color: #f38181;
   word-spacing: 2vw;
@@ -28,7 +28,7 @@ a:hover {
 }
 
 .greeting {
-  font-family: 'Cera GR Regular', Fallback, sans-serif !important;
+  font-family: 'Cera GR Regular', sans-serif !important;
   max-width: 600px;
   line-height: 1.5;
   text-align: left;
@@ -45,13 +45,13 @@ a:hover {
 }
 
 .location {
-  font-family: 'Cera GR Light', Fallback, sans-serif !important;
+  font-family: 'Cera GR Light', sans-serif !important;
   font-size: 1.5rem;
   margin: 0;
 }
 
 #name {
-  font-family: 'Cera GR Bold', Fallback, sans-serif !important;
+  font-family: 'Cera GR Bold', sans-serif !important;
 }
 
 #intro {
@@ -62,7 +62,7 @@ a:hover {
 }
 
 #credit {
-  font-family: 'Cera GR Light', Fallback, sans-serif !important;
+  font-family: 'Cera GR Light', sans-serif !important;
   position: absolute;
   bottom: 0px;
   right: 32px;
@@ -93,7 +93,7 @@ a:hover {
 }
 
 .project-info {
-  font-family: 'Cera GR Light', Fallback, sans-serif !important;
+  font-family: 'Cera GR Light', sans-serif !important;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
