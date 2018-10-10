@@ -61,18 +61,18 @@ a:hover {
   /* box-shadow: 0 6px 12px 0px #757575; */
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label {
-  background-color: #42a5f5;
+  background-color: #c5f3eb;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label,
 .onoffswitch-checkbox:checked + .onoffswitch-label:before {
-  border-color: #42a5f5;
+  border-color: #c5f3eb;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
   margin-left: 0;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label:before {
   right: 0px;
-  background-color: #2196f3;
+  background-color: #95e1d3;
   /* box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.2); */
 }
 
