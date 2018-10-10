@@ -10,7 +10,7 @@ nav {
   text-align: right;
   position: fixed;
   right: 5vw;
-  top: 1.5vw;
+  top: 0px;
   z-index: 2;
   text-transform: uppercase;
 }
@@ -79,7 +79,7 @@ a:hover {
 .particle-switch {
   position: fixed;
   left: 8vw;
-  top: 3%;
+  top: 24px;
   z-index: 2;
 }
 
