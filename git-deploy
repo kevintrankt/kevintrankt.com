@@ -1,0 +1,7 @@
+#!/bin/sh
+ng build --prod
+git add -A && git commit -m "$1"
+cp -R /Users/hmmm/Documents/GitHub/kevintrankt/dist/kevintrankt/. /Users/hmmm/Documents/GitHub/kevintrankt.github.io
+cd /Users/hmmm/Documents/GitHub/kevintrankt.github.io
+git add -A && git commit -m "$1"
+cd /Users/hmmm/Documents/GitHub/kevintrankt/
