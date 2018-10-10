@@ -26,7 +26,7 @@ a:hover {
   color: #3375ae;
 }
 
-/* The switch - the box around the slider */
+/*
 .switch {
   position: relative;
   display: inline-block;
@@ -35,12 +35,10 @@ a:hover {
   z-index: 2;
 }
 
-/* Hide default HTML checkbox */
 .switch input {
   display: none;
 }
 
-/* The slider */
 .slider {
   position: absolute;
   cursor: pointer;
@@ -79,7 +77,6 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
 .slider.round {
   border-radius: 34px;
 }
@@ -92,12 +89,62 @@ input:checked + .slider:before {
   content: ' ';
   display: block;
   clear: both;
+} */
+
+.onoffswitch {
+  position: relative;
+  width: 44px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+  display: none;
+}
+.onoffswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  height: 15px;
+  padding: 0;
+  line-height: 15px;
+  border: 0px solid #ffffff;
+  border-radius: 21px;
+  background-color: #ffadad;
+}
+.onoffswitch-label:before {
+  content: '';
+  display: block;
+  width: 21px;
+  margin: -3px;
+  background: #ff8585;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 25px;
+  border-radius: 21px;
+  box-shadow: 0 6px 12px 0px #757575;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+  background-color: #42a5f5;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label,
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+  border-color: #42a5f5;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+  right: 0px;
+  background-color: #2196f3;
+  box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.2);
 }
 
 .particle-switch {
   position: fixed;
   left: 8vw;
-  top: 2.5%;
+  top: 3%;
   z-index: 2;
 }
 

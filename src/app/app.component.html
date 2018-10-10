@@ -1,11 +1,19 @@
 <div class="page">
   <particles *ngIf="showParticle" class="particle" [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
   <div class="particle-switch">
-    <label class="switch">
+    <!-- <label class="switch">
       <input type="checkbox" checked (change)="toggleParticle()">
       <span class="slider round"></span>
-    </label>
+    </label> -->
+
+    <div class="onoffswitch">
+      <input checked (change)="toggleParticle()" type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch"
+        checked>
+      <label class="onoffswitch-label" for="myonoffswitch"></label>
+    </div>
+
   </div>
+
 
 
   <nav class="nav-link">

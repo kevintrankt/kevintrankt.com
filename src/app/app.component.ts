@@ -9,8 +9,8 @@ export class AppComponent {
   title = 'app';
   myStyle: object = {};
   myParams: object = {};
-  width: number = 100;
-  height: number = 100;
+  width = 100;
+  height = 100;
   projects = false;
   showParticle = true;
 
